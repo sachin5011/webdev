@@ -1,0 +1,153 @@
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    body {
+      background-image: linear-gradient(25deg, #108dc7, #ef8e38);
+    }
+
+    section {
+      height: 1050px;
+    }
+
+    /* Navigation bar */
+    nav {
+      padding: 15px;
+      background-color: black;
+      opacity: 0.5;
+    }
+
+    nav a {
+      color: aliceblue;
+      font-size: 25px;
+      padding: 0px 15px 0px 15px;
+      text-decoration: none;
+      /* background-color: blue; */
+      border-radius: 50px;
+    }
+
+    nav a:hover {
+      color: rgb(182, 5, 5);
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .Headline_part {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .Headline_part img {
+      height: 100px;
+      margin: 20px 0px 10px 0px;
+
+    }
+
+    .Headline_part h1 {
+      color: rgb(159, 13, 13);
+      font-size: 45px;
+      padding: 10px;
+      text-shadow: 5px 5px 10px white;
+    }
+
+    .Headline_part h4 {
+      color: #2808dd;
+      padding: 2px;
+    }
+
+    /* Main content */
+    .introduction p {
+      padding: 5px 100px 5px 100px;
+      font-size: 20px;
+      
+    }
+
+    /* management content */
+    .heading h3 {
+      text-align: center;
+      font-size: 30px;
+      text-decoration: underline;
+      margin: 30px 0px 30px 150px;
+      margin-bottom: 10px;
+    }
+
+    .training_managment {
+      /* border: 1px solid black; */
+      margin: 10px;
+      height: 950px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 10px;
+      /* box-shadow: 10px 10px 10px black; */
+    }
+    .technical-trainer h4{
+      font-size: 25px;
+      text-decoration: underline;
+      margin-left: 90px;
+    }
+    .content {
+      /* border: 2px solid red; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 1000px;
+    }
+    #main-box{
+        margin-bottom: 100px ;
+    }
+    .box {
+      /* border: 2px solid orange; */
+      height: 350px;
+      width: 350px;
+      display: flex ;
+      text-align: center;
+      align-items: center;
+      flex-direction: column;
+      margin:10px;
+      border: 1px solid white;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px black;
+    }
+    .box:hover{
+      transform: scale(1.05);
+      transition: 1s;
+    }
+    .box img{
+      margin-top: 20px;
+      height: 130px;
+      width: 130px;
+      border-radius: 10px;
+    }
+    .box h3{
+      margin: 10px 0px 10px 0px;
+    }
+    .box ul li{
+      text-decoration: none;
+    }
+    .box a{
+      /* border: 2px solid black; */
+      text-decoration: none;
+      margin-top: 20px;
+      padding: 10px;
+      color: white;
+      border-radius: 7px;
+      background-color: black;
+    }
+    .box a:hover{
+      background-color: azure;
+      color: black;
+    }
+    footer{
+      background-color: black;
+      margin-top: 10px;
+      font-size: 15px;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }

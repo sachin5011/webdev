@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    /* background-image:linear-gradient(25deg,rgb(149, 47, 228), deeppink,violet, purple); */
+}
+section{
+   height: 1080px;
+   width: 700px;
+   border: 1px solid rgb(5, 5, 5);
+   margin-top: 13px;
+   box-shadow: 5px 5px 15px rgb(62, 62, 62);
+   
+}
+/* section:hover{
+    transform: scale(1.05);
+    transition: 1s;
+} */
+/* first div */
+#details{
+    padding: 20px;
+    display: flex;
+    background-image: linear-gradient(#1e3c72, #2a5298);
+
+}
+.name{
+    margin-left: 50px;
+    width: 200px;
+    margin-left: 40px 0px 20px 50px;
+    padding: 15px 10px 0px 10px;
+}
+.name p{
+    color: #e9e9e9;
+    text-align: justify;
+}
+.image{
+    height: 100px;
+    width: 100px;
+    margin-left: 220px;
+    padding: 10px;
+    clip-path: ellipse(33% 42% at 50% 50%);
+    
+}
+.image img{
+    height: inherit;
+    width: inherit;
+}
+
+/* objective div */
+.objective{
+    margin: 5px;
+    padding: 25px;
+}
+.objective h2{
+    padding-bottom: 10px;
+}
+
+ /* Education Div */
+ .education{
+    margin: 5px;
+    padding: 25px;
+ }
+ .education h2{
+     padding: 5px 0px 10px 0px;
+     
+ }
+ .education div{
+     display: flex;
+     justify-content: center;
+ }
+ .education div table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 5px 5px 10px grey;
+ }
+ .education div table tr th{
+     border: 1px solid black;
+     background-color: rgb(243, 143, 125);
+     width: 100px;
+     padding: 5px;
+ }
+ .education div table tr td{
+     border: 1px solid black;
+     padding: 5px;
+     background-color: rgb(213, 212, 212);
+ }
+
+ .project{
+    margin: 5px;
+    padding: 25px;
+ }
+ .project h2{
+     padding-bottom: 10px;
+ }
+ .project h5{
+     font-size: 16px;
+     padding: 5px 5px 5px 0px;
+ }
+
+ /* skill div */
+ .skills{
+     margin: 5px;
+     padding: 25px;
+ }
+ /* .skill div{
+     padding-bottom: 20px ;
+ } */
+ .skills div h2{
+     padding-bottom: 10px;
+ }
+ .text h4{
+     padding-bottom: 7px;
+ }
+
+ /* Decleration div */
+.decleration{
+    /* margin: 0px; */
+    padding: 25px;
+}
+.decleration h2{
+    padding-bottom: 10px;
+    margin-left: -27px;
+}
+.decleration p{
+    margin-left: -27px;
+}
+hr{
+    border: 1px solid darkorange;
+    box-shadow: 5px 5px 10px grey;
+}
+
+/* utility class */
+.heading-color{
+    color: darkorange;
+}
+
+
+/* Progress Bar */
+.container{
+    display: flex;
+    margin-bottom: 20px;
+}
+.progressbar{
+    width: 450px;
+    margin-left: 70px;
+}
+.progress{
+    width: 450px;
+    height: 10px;
+    background-color: #e9ecef;
+    border-radius: 50px;
+    margin: 3px 0px 16px 0px;
+}
+.fill{
+    height: 100%;
+    background-color:darkorange;
+    border-radius: 50px;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.fill-one{
+    animation-name: progress-bar-one ;
+}
+.fill-two{
+    animation-name: progress-bar-two;
+}
+.fill-three{
+    animation-name: progress-bar-three;
+}
+.fill-four{
+    animation-name: progress-bar-four;
+}
+.fill-five{
+    animation-name: progress-bar-five;
+}
+@keyframes progress-bar-one {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 98%;
+    }
+    
+}
+@keyframes progress-bar-two {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+    
+}
+@keyframes progress-bar-three {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 55%;
+    }
+    
+}
+@keyframes progress-bar-four {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 93%;
+    }
+    
+}
+@keyframes progress-bar-five {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 65%;
+    }
+    
+}

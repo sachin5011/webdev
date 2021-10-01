@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    top: 0px;
+}
+#logo img{
+    height: 60px;
+    width: 80px;
+    padding-top: 10px;
+    
+    margin: 3px 6px;
+    border-radius: 50px;
+
+}
+
+
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: '';
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .3;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: Bebas Neue;
+}
+#navbar ul li a{
+    color: rgb(12, 11, 12);
+    display: block;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: rgb(250, 53, 53);
+    background-color: white;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 608px;
+    
+}
+#home::before{
+    content: '';
+    background: url('../imgs/food1.jpg') center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    opacity: .89;
+}
+#home h1{
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    margin: 56px;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.primary{
+    color: #6856ff;
+    font-size: 2.8rem;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    padding: 10px;
+    border: 2px white;
+    margin: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;   
+    font-size: 1rem;
+    cursor: pointer;
+     
+}
+.center{
+    text-align: center;
+}
+.secondary{
+    text-align: center;
+    font-size: 2.0rem;
+    padding: 15px;
+}
+#services{
+    margin: 4px;
+    display: flex;
+    background-color: lightblue;
+}
+
+#services .box{
+    border: 5px solid rgb(39, 209, 186);
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 23px;
+    background-color: rgb(228, 230, 230);
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+#client-section{
+    height: 300px;   
+}
+
+.client-items{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    background-image: url('../imgs/client-bg.jpg');
+
+}
+
+.clients img{
+    height: 150px;
+    padding: 10px;
+}
+
+#contact-section{
+    /* height: 500px; */
+    position: relative;
+    
+}
+#contact-section::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* z-index: -1; */
+    opacity: 0.7;
+    /* background-color: beige; */
+    
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+    background-image: url('../imgs/contact.jpg') ;
+}
+.contact-box form{
+    width: 40%;
+}
+.contact-box label{
+    font-size: 17px;
+    text-align: center;
+}
+.contact-box input,
+.contact-box textarea{
+    width: 100%;
+    padding: 0.2rem;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container
+        {
+            border: 2px solid black;
+            background-color: #013c52;
+            height: 700px;
+            width: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 10px 10px 10px black;
+        }
+        .box{
+            display: inline-block;
+            /* border: 2px solid red; */
+            height: 400px;
+            width: 300px;
+            background-color: #fe4164;
+            border-top-left-radius: 50% ;
+            border-top-right-radius:50%;
+        }
+        #box1{
+            position: relative;
+            transform: rotate(-49deg);
+            left: 100px;
+            box-shadow: 5px 5px 10px #fe4164;
+        }
+        #box2{
+            position: relative;
+            right: 100px;
+            transform: rotate(48deg);
+            box-shadow: 5px 0px 10px #fe4164;
+            /* z-index: -1; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="circle" id="circle1"></div>
+        <div class="circle" id="circle2"></div>
+    </div>
+</body>
+</html>
+
+<!-- kya hai ji
+     phone kaha hai ji
+
+
+
+-->

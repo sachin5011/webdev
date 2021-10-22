@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+/* Header styling */
+header{
+    height: 15vh;
+    width: 100vw;
+    background: linear-gradient(#2193b0 , #6dd5ed );
+    /* border: 2px solid black; */
+    color: aliceblue;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+header h1{
+    text-shadow: 7px 7px 5px black;
+}
+/* main body styling */
+.main{
+    height: 80vh;
+    width: 100vw;
+    border: 2px solid blue;
+    display: flex;
+}
+.menue{
+    width: 30vw;
+    height: 80vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(#614385 , #516395);
+}
+.btn1{
+    height: 5vh;
+    width: 15vw;
+    /* border: 2px solid black; */
+    background-color: #ffb53d;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px black;
+}
+.btn1 a{
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.btn1 a:hover{
+    color: black;
+}
+
+/* Content section styling */
+.content{
+    height: 80vh;
+    width: 70vw;
+    /* border: 2px solid red; */
+    background: linear-gradient(#000428 , #004e92);
+}
+.row1{
+    height: 39.5vh;
+    width: 70vw;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row2{
+    height: 39.5vh;
+    width: 70vw;
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    height: 35vh;
+    width: 33vw;
+    /* border: 2px solid red; */
+    /* overflow: hidden; */
+}
+.box img{
+    height: 35vh;
+    width: 33vw;
+}
+.box img:hover{
+    transform: scale(1.4);
+    transition: 1.5s;
+}
+
+/* footer styling */
+footer{
+    height: 5vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: #000428;
+    
+}
